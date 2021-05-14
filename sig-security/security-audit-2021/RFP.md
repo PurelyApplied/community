@@ -127,3 +127,7 @@ The audit should result in the following deliverables, which will be made public
 ### Do we need to use our own hardware and infrastructure or should we use a cloud?
 
 Strong preference would be for the vendor to provide their own infrastructure or use a public cloud provider, just NOT a managed offering like GKE or EKS. The reasoning is to prevent accidentally auditing a cloud provider's kubernetes service instead of kubernetes/kubernetes. Depending on the scope and approach, it may make sense to use a local cluster (e.g. kind) for API fuzzing and anything that doesn't impact the underlying OS, and is an easy to use repeatable setup (see Methodology above).
+
+### Who are the members of the Kubernetes Security Audit Working Group?
+
+Kubernetes Security Audit Working Group members can be found in the [kubernetes-security-audit-2021](https://groups.google.com/g/kubernetes-security-audit-2021/members) Google Group.
